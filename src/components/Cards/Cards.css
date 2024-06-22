@@ -1,0 +1,38 @@
+.card-container
+{
+    background-color:rgb(44, 43, 43);
+    height: 200px;
+    width: 150px;
+    padding: 20px;
+    margin:10px;
+    position: relative; 
+}
+
+.img
+{    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 25%;
+    left: 20%;
+    height: 110px;
+    border-radius: 50%;
+   }
+.student-name
+{
+    position: absolute;
+    top: 85%;
+    left: 10px;
+    font-size: 17px;
+    color:white;
+    background-color:rgb(44, 43, 43);
+   }
+
+.voice-icon
+{
+    background-color: aliceblue;
+    border-radius: 50%;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+     right: 5px;
+}

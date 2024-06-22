@@ -1,0 +1,88 @@
+.main{ display: flex;}
+.main-img{   flex-wrap: wrap;
+            width: 70%;
+            height: 100%;
+         }
+*
+{    background-color: black;}
+
+.header-icons-mic
+{   height: 30px;
+    background-color: aliceblue;
+    margin: 7px;
+}
+
+.header-icons-present
+{
+    height: 30px;
+    background-color: aliceblue;
+    margin: 7px;
+}
+
+.head
+{    position: relative;
+    display: flex;
+    background-color:rgb(44, 43, 43);
+    margin: 20px;
+    width: 100%;
+}
+.header-icon{
+   
+    height: 30px;
+    background-color: aliceblue;
+}
+.stop-presenting-text
+{    position: absolute;
+    right: 20px;
+    text-align: right;
+    padding-top: -25px;
+    color: rgb(231, 227, 227);
+    background-color:rgb(219, 25, 25);
+    padding: 6px;
+    font-size: 18px;
+}
+
+/* footer */
+.footer-icons-container{ display: flex;
+        position: relative;
+    justify-content: center;
+    margin: 0px auto;
+    margin: 20px;
+    background-color:rgb(44, 43, 43);
+    margin: -2px;
+}
+.footer-icons-mic{ height: 30px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 50%;
+}
+.footer-icons-video
+{  
+    height: 30px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 50%;
+}
+.footer-icon-present
+{
+    height: 30px;
+    background-color: rgb(177, 198, 232);
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.screen-presenter
+{
+    padding-top: 10px;
+    color: rgb(231, 227, 227);
+    font-size: 18px;
+    background-color:rgb(44, 43, 43);
+}
+.footer-icons-end
+{
+    padding-top: 10px;
+    height: 30px;
+    color: rgb(231, 227, 227);
+    font-size: 18px;
+   background-color:rgb(44, 43, 43);
+}
